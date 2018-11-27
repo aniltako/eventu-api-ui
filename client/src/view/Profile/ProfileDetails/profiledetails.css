@@ -1,0 +1,12 @@
+.card-header {
+    color: #5b9bd1;
+    padding: 1px 0px 1px 10px;
+}
+
+.card-header:hover {
+    cursor: pointer;
+}
+
+.card {
+    margin-bottom: 10px;
+}

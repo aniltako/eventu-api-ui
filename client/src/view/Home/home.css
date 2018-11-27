@@ -1,0 +1,14 @@
+.home {
+    margin: 20px 0;
+}
+
+.home-sidebar {
+    padding: 20px 0 10px 0;
+    background: #FFF;
+}
+
+.home-content {
+    padding: 20px;
+    background: #FFF;
+    min-height: 460px;
+}

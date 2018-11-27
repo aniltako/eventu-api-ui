@@ -1,0 +1,27 @@
+version: "3.2"
+services:
+ app:
+   container_name: eventu
+   restart: always
+   build: .
+   ports:
+    - "8080:8080"
+   links:
+    - mongodb
+   depends_on:
+    - mongodb
+ mongodb:
+  container_name: mongodb
+  image: mongo:3.6
+  # environment: 
+  #   - MONGO_INITDB_ROOT_USERNAME:root
+  #   - MONGO_INITDB_ROOT_PASSWORD:root
+  #   - MONGO_INITDB_DATABASE:home_tuition
+  # volumes:
+  #    - type: bind
+  #     source: ./
+  #     target: /data/db
+  ports: 
+   - "27017:27017"
+  entrypoint: ./mongodb-entrypoint.sh
+  # command: mongod --auth

@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+/* @font-face {
+    font-family: 'MyFont';
+    src:  url('./my-font.otf') format('otf');
+    font-weight: 600;
+    font-style: normal;
+}
+
+.hello {
+  color: red;
+  font-family: 'MyFont';
+  background: url('./anil.png');
+} */
