@@ -1,0 +1,36 @@
+{
+  "groups": {
+    "default": {
+      "packages": [
+        "client/package.json",
+        "client/src/components/DateForm/package.json",
+        "client/src/components/Footer/package.json",
+        "client/src/components/Header/package.json",
+        "client/src/components/Sidebar/package.json",
+        "client/src/containers/Home/package.json",
+        "client/src/containers/Login/package.json",
+        "client/src/containers/Profile/package.json",
+        "client/src/containers/Registration/package.json",
+        "client/src/containers/SignUp/package.json",
+        "client/src/view/Home/package.json",
+        "client/src/view/Login/package.json",
+        "client/src/view/Profile/Account/AccountDetails/package.json",
+        "client/src/view/Profile/Account/ChangePassword/package.json",
+        "client/src/view/Profile/Account/package.json",
+        "client/src/view/Profile/ProfileDetails/Certification/package.json",
+        "client/src/view/Profile/ProfileDetails/Education/package.json",
+        "client/src/view/Profile/ProfileDetails/Experience/package.json",
+        "client/src/view/Profile/ProfileDetails/package.json",
+        "client/src/view/Profile/package.json",
+        "client/src/view/Registration/CertificationForm/package.json",
+        "client/src/view/Registration/EducationForm/package.json",
+        "client/src/view/Registration/ExperienceForm/package.json",
+        "client/src/view/Registration/OthersForm/package.json",
+        "client/src/view/Registration/SignUp/package.json",
+        "client/src/view/Registration/package.json",
+        "client/src/view/SignUp/package.json",
+        "package.json"
+      ]
+    }
+  }
+}
